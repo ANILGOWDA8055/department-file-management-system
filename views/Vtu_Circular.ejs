@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Circular</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javaScript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body style="background-color: #9ab5cf;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0b345e;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DSCE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            AICTE
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/aictecircular">Circular</a></li>
+                            <li><a class="dropdown-item" href="/aicteapproval">Approval Letters</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            VTU
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/vtucircular">Circular</a></li>
+                            <li><a class="dropdown-item" href="/vtuapproval">Approval Letters</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          NBA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="/nbacircular">Circular</a></li>
+                          <li><a class="dropdown-item" href="/nbacriteria">Criteria Files</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          NAAC
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="/naaccircular">Circular</a></li>
+                          <li><a class="dropdown-item" href="/naaccriteria">Criteria Files</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            NIRF
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/nirf">Reports</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Industry Collaboration
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/mous">MOU'S</a></li>
+                            <li><a class="dropdown-item" href="/internship">Internship's</a></li>
+                            <li><a class="dropdown-item" href="/consult">Consultancy Files</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Alumni
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/alumni">Alumni Details</a></li>
+                            <li><a class="dropdown-item" href="#">Higher Study Details</a></li>
+                            <li><a class="dropdown-item" href="#">Alumni Scholarship</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Student Club Activities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Circular</a></li>
+                            <li><a class="dropdown-item" href="#">Extra Curricular Activities</a></li>
+                            <li><a class="dropdown-item" href="#">Student Achievements</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Placement
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/placementcircular">Placement Circular</a></li>
+                            <li><a class="dropdown-item" href="/studentofferletter">Placed Student Offer Letter</a></li>
+                            <li><a class="dropdown-item" href="/ppacircular">Pre Placement Activities</a></li>
+                            <li><a class="dropdown-item" href="/unplaced">Unplaced Student Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Faculty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/addfaculty">Faculty Profile</a></li>
+                            <li><a class="dropdown-item" href="/addfacultycertificate">Faculty Certificates</a></li>
+                            <li><a class="dropdown-item" href="/fdpcertificate">FDP Certficates</a></li>
+                            <li><a class="dropdown-item" href="/fachievement">Faculty Achievements</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Research
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Research Proposal</a></li>
+                            <li><a class="dropdown-item" href="#">Phd Faculty Registration</a></li>
+                            <li><a class="dropdown-item" href="#">Faculty/Student Publications</a></li>
+                            <li><a class="dropdown-item" href="#">Faculty Research Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Funded Project</a></li>
+                            <li><a class="dropdown-item" href="#">Innovation Lab</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-sm position-relative border border-muted border border-3 w-75  mb-3 p-3 ps-5 pe-5"
+        style="margin-top:80px; background-color: white;">
+        <form action="/vtuaddcircular" method="POST" class="row g-3 form-container" enctype="multipart/form-data">
+        <h3 style="text-align: center;">VTU Circular</h3>
+        <div class="mb-3">
+            <label for="ii" class="form-label">Name</label>
+            <input id="ii" name="circularname" class="form-control" type="text" placeholder="Default input"
+                aria-label="default input example">
+        </div>
+        <div class="mb-3">
+            <label for="jj" class="form-label">Date</label>
+            <input id="jj" name="circulardate" class="form-control" type="date">
+        </div>
+        <div class="input-group mb-2">
+            <input type="file" class="form-control" name="circularfile"id="inputGroupFile04" aria-describedby="inputGroupFileAddon04"
+                aria-label="Upload">
+            <!--<button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>-->
+        </div>
+        <button type="submit"
+            class="btn btn-primary position-relative start-50 botttom-0 translate-middle-x">Upload</button>
+        </form>
+    </div>
+    <!-- <h3 style="text-align: center; ">List Of Circulars</h3>-->
+    <div class="container-fluid w-50 mb-3">
+        <form class="d-flex">
+            <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search" data-table = "circulartable">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+
+    <table class="table table-light table-striped table-hover align-center table-bordered w-75 m-auto mb-4 circulartable" id="example">
+        <thead>
+            <tr>
+                <th scope="col">SL</th>
+                <th scope="col">Name of the Circular</th>
+                <th scope="col">Date</th>
+                <th scope="col">View</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% var i = 1%>
+            <% for (let Ag of Ags) { %>
+            <form action="/vtucirdelete" method="POST" class="row g-3 form-container">
+            <tr>
+                <th scope="row"><%=i++%></th>
+                <td><%= Ag.cirname%></td>
+                <td><%= Ag.cirdate.toLocaleDateString()%></td>
+                <input type="hidden" id="ad" name="cname" value="<%=Ag.cirname%>">
+                <td><a href="<%= Ag.cirlink%>" button type="button" class="btn btn-success btn-sm">View</a></td>
+                <td><button type="submit"class="btn btn-danger btn-sm">delete</button></td>
+            </tr>
+            </form>
+            <% } %>
+        </tbody>
+    </table>
+    <script>
+        (function(document) {
+            'use strict';
+
+            var TableFilter = (function(myArray) {
+                var search_input;
+
+                function _onInputSearch(e) {
+                    search_input = e.target;
+                    var tables = document.getElementsByClassName(search_input.getAttribute('data-table'));
+                    myArray.forEach.call(tables, function(table) {
+                        myArray.forEach.call(table.tBodies, function(tbody) {
+                            myArray.forEach.call(tbody.rows, function(row) {
+                                var text_content = row.textContent.toLowerCase();
+                                var search_val = search_input.value.toLowerCase();
+                                row.style.display = text_content.indexOf(search_val) > -1 ? '' : 'none';
+                            });
+                        });
+                    });
+                }
+
+                return {
+                    init: function() {
+                        var inputs = document.getElementsByClassName('search-input');
+                        myArray.forEach.call(inputs, function(input) {
+                            input.oninput = _onInputSearch;
+                        });
+                    }
+                };
+            })(Array.prototype);
+
+            document.addEventListener('readystatechange', function() {
+                if (document.readyState === 'complete') {
+                    TableFilter.init();
+                }
+            });
+
+        })(document);
+
+
+        
+
+
+    </script>
+    
+</body>
+
+</html>

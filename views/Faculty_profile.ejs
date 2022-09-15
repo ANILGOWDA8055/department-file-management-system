@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Faculty Profile</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function myFunction() {
+            window.location.href = "faculty_edit.html";
+        }
+    </script>
+
+</head>
+
+<body style="background-color: #9ab5cf;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0b345e;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DSCE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            AICTE
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/aictecircular">Circular</a></li>
+                            <li><a class="dropdown-item" href="/aicteapproval">Approval Letters</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            VTU
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/vtucircular">Circular</a></li>
+                            <li><a class="dropdown-item" href="/vtuapproval">Approval Letters</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          NBA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="/nbacircular">Circular</a></li>
+                          <li><a class="dropdown-item" href="/nbacriteria">Criteria Files</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          NAAC
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="/naaccircular">Circular</a></li>
+                          <li><a class="dropdown-item" href="/naaccriteria">Criteria Files</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            NIRF
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/nirf">Reports</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Industry Collaboration
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/mous">MOU'S</a></li>
+                            <li><a class="dropdown-item" href="/internship">Internship's</a></li>
+                            <li><a class="dropdown-item" href="/consult">Consultancy Files</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Alumni
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/alumni">Alumni Details</a></li>
+                            <li><a class="dropdown-item" href="#">Higher Study Details</a></li>
+                            <li><a class="dropdown-item" href="#">Alumni Scholarship</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Student Club Activities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Circular</a></li>
+                            <li><a class="dropdown-item" href="#">Extra Curricular Activities</a></li>
+                            <li><a class="dropdown-item" href="#">Student Achievements</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Placement
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/placementcircular">Placement Circular</a></li>
+                            <li><a class="dropdown-item" href="/studentofferletter">Placed Student Offer Letter</a></li>
+                            <li><a class="dropdown-item" href="/ppacircular">Pre Placement Activities</a></li>
+                            <li><a class="dropdown-item" href="/unplaced">Unplaced Student Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Faculty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/addfaculty">Faculty Profile</a></li>
+                            <li><a class="dropdown-item" href="/addfacultycertificate">Faculty Certificates</a></li>
+                            <li><a class="dropdown-item" href="/fdpcertificate">FDP Certficates</a></li>
+                            <li><a class="dropdown-item" href="/fachievement">Faculty Achievements</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Research
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Research Proposal</a></li>
+                            <li><a class="dropdown-item" href="#">Phd Faculty Registration</a></li>
+                            <li><a class="dropdown-item" href="#">Faculty/Student Publications</a></li>
+                            <li><a class="dropdown-item" href="#">Faculty Research Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Funded Project</a></li>
+                            <li><a class="dropdown-item" href="#">Innovation Lab</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <body>
+        <% for (let yg of ygs) { %>
+        <div class="container-sm position-relative border border-muted border border-3 w-75  mb-3 p-3 ps-5 pe-5"
+            style="margin-top:80px; background-color: white;">
+            <section class="section about-section gray-bg" id="about">
+                <form action="faculty_edit.html">
+                    <div class="container">
+                        <div class="row align-items-center flex-row-reverse">
+                            <div class="col-lg-6">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Full Name</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <%= yg.fname%>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Designation</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <%= yg.fdesignation%>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Faculty ID</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <%= yg.fid%>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Email</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <%= yg.fmail%>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Mobile</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <%= yg.fphone%>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column align-items-center text-center">
+                                        <img src="<%= yg.fphoto%>" alt="Admin"
+                                            class="rounded-circle" width="200">
+                                        <div class="mt-3">
+                                            <h4><%= yg.fname%></h4>
+                                            <p class="text-secondary mb-1">Associate Proffesor</p>
+                                            <div class="d-grid gap-2 col-8 mx-auto">
+                                                <td><a href="/profileedit/<%=yg.fid%>" button type="button" class="btn btn-primary btn-sm">Edit</a></td>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <% } %>
+        <div class="container-sm position-relative border border-muted border border-3 w-75  mb-3 p-3 ps-5 pe-5"
+            style="background-color: white;">
+            <div class="container-fluid w-50 mb-3">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+            <h3 style="text-align: center; ">Faculty Cerificates</h3>
+            <hr>
+            <table class="table table-light table-striped table-hover table-bordered w-75 m-auto mb-4" id="abc">
+                <thead>
+                    <tr>
+                        <th scope="col">SL</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">View</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% var i = 1%>
+                    <% for (let lg of lgs) { %>
+                    <tr>
+                        <th scope="row"><%=i++%></th>
+                        <td><%= lg.cname%></td>
+                        <td><%= lg.cdate.toLocaleDateString()%></td>
+                        <td><a href="<%= lg.clink%>" button type="button" class="btn btn-success btn-sm">View</a></td>
+                        <td><input type="button" class="btn btn-danger btn-sm" value="Delete"></input></td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+            <h3 style="text-align: center; ">Achievements</h3>
+            <hr>
+            <table class="table table-light table-striped table-hover table-bordered w-75 m-auto mb-4" id="abc">
+                <thead>
+                    <tr>
+                        <th scope="col">SL</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">View</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% var j = 1%>
+                    <% for (let mg of mgs) { %>
+                    <tr>
+                        <th scope="row"><%=j++%></th>
+                        <td><%= mg.cname%></td>
+                        <td><%= mg.cdate.toLocaleDateString()%></td>
+                        <td><a href="<%= mg.clink%>" button type="button" class="btn btn-success btn-sm">View</a></td>
+                        <td><input type="button" class="btn btn-danger btn-sm" value="Delete"></input></td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+            <h3 style="text-align: center; ">FDP Certficates</h3>
+            <hr>
+            <table class="table table-light table-striped table-hover table-bordered w-75 m-auto mb-4" id="abc">
+                <thead>
+                    <tr>
+                        <th scope="col">SL</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">View</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% var k = 1%>
+                    <% for (let sg of sgs) { %>
+                    <tr>
+                        <th scope="row"><%=k++%></th>
+                        <td><%= sg.cname%></td>
+                        <td><%= sg.cdate.toLocaleDateString()%></td>
+                        <td><a href="<%= sg.clink%>" button type="button" class="btn btn-success btn-sm">View</a></td>
+                        <td><input type="button" class="btn btn-danger btn-sm" value="Delete"></input></td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+</body>
+
+</html>
